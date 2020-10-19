@@ -1,0 +1,24 @@
+// Name: Zodiac Pics Only
+// Author: Waylena modified from Matthew Gates
+// License: Public Domain
+// Version: 1.0
+// Description: This script displays the constellations of the Zodiac.
+//              That means the constellations which lie along the line which
+//              the Sun traces across the celestial sphere over the course
+//              of a year.
+//
+
+var constellations = new Array("Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpius", "Sagittarius", "Capricornus", "Aquarius", "Pisces", "Aries", "Taurus");
+
+core.wait(0.5);
+
+ConstellationMgr.setFlagIsolateSelected(true);
+ConstellationMgr.setFlagArt(true);
+ConstellationMgr.setFlagLabels(false);
+ConstellationMgr.setArtIntensity(0.6);
+
+for(i=0; i<constellations.length; i++)
+{
+	core.selectObjectByName(constellations[i], false);
+	core.wait(0.1);
+}
