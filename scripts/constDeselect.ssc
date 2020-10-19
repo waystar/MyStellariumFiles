@@ -1,0 +1,3 @@
+// Description: Deselects all but the most recently selected constellation
+
+ConstellationMgr.deselectConstellations();

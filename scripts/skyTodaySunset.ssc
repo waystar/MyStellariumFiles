@@ -1,0 +1,11 @@
+//
+// Name: Sky Today Sunset
+// Author: Waylena McCully
+// License: CC
+// Version: 0.1
+// Description: Changes sky to sunset
+
+
+core.selectObjectByName("Sun");
+core.wait(1);
+StelObjectMgr.nextSetting();

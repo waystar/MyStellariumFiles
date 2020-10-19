@@ -1,0 +1,6 @@
+ConstellationMgr.setFlagIsolateSelected(true);
+core.wait(1);
+core.selectConstellationByName("Scorpius");
+core.wait(1);
+ConstellationMgr.setFlagArt(true);
+

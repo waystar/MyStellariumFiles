@@ -1,0 +1,5 @@
+ConstellationMgr.setFlagIsolateSelected(true);
+core.wait(1);
+core.selectConstellationByName("Ursa Minor");
+core.wait(1);
+ConstellationMgr.setFlagArt(true);
